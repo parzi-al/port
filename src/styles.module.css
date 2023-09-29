@@ -1,0 +1,58 @@
+.container > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}.container{
+  background-image: linear-gradient(to right,#376ACC, #EDF2EF);
+
+}
+.number{
+  color: #FFF;
+  font-family:henny penny;
+  font-size: 240px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+.text {
+  pointer-events: none;
+
+
+  line-height: 10px;
+  text-transform: uppercase;
+}
+
+/* 
+.number {
+  font-size: 300px;
+  color: #545864;
+} */
+
+.number span {
+  display: inline-block;
+  position: relative;
+}
+
+.slopeBegin {
+
+  clip-path: polygon(20% 0, 70% 0, 50% 100%, 0% 100%);
+}
+
+.slopeEnd {
+  clip-path: polygon(70% 0, 100% 0, 80% 100%, 50% 100%);
+}
+
+.slopeBegin,
+.slopeEnd {
+  position: absolute;
+  width: 170%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.pink {
+  background: linear-gradient(to right,  #758173 100%, #76c5ed 0%);
+}

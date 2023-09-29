@@ -1,0 +1,17 @@
+body{  
+    background-image: linear-gradient(to right,#376ACC, #EDF2EF);
+}
+body {
+    font-family: 'Henny Penny', sans-serif;
+  }
+  
+
+.intro{
+    color: #FFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 240px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+  }
